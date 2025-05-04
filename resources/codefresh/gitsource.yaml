@@ -11,7 +11,7 @@ spec:
   project: cf-git-sources
   sources:
     - repoURL: https://github.com/pasha-codefresh/gitsource.git
-      path: apps
+      path: broken-project
       targetRevision: main
   destination:
     namespace: argocd
